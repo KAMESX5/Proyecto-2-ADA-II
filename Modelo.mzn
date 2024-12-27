@@ -1,3 +1,4 @@
+  % kevin Alejandro Marulanda Escobar - 2380697-3743
   include "globals.mzn"; % Importa las restricciones globales
   
   % Parámetros de entrada

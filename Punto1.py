@@ -1,3 +1,4 @@
+#kevin Alejandro Marulanda Escobar - 2380697-3743
 import os
 from minizinc import Instance, Model, Solver
 
