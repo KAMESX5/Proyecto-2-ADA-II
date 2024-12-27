@@ -151,6 +151,14 @@ class DataClassifier:
             print("Resultados de la ejecución del modelo MiniZinc:")
             print(result)
 
+             # Guardar resultados en un archivo .txt
+            output_file = "resultados.txt"  # Nombre del archivo de salida
+            with open(output_file, "w") as file:
+                file.write("Resultados del modelo:\n\n")
+                file.write(str(result))
+
+            print(f"Resultados guardados en {output_file}")
+
             return result
 
         except Exception as e:
